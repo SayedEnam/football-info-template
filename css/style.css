@@ -1,4 +1,6 @@
-/* this is style sheet */
+/*  =========================
+          All CSS Style
+    =========================*/
 
 /* google fonts imported link */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
@@ -145,7 +147,52 @@ footer img{
             Media Query
 ----------------------------------------*/
 /* Mobile Responsive */
+@media only screen and (min-width: 800px) and (max-width: 1080px){
 
+    header {
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .header_title {
+        color: white;
+        padding: 20px;
+        font-size: 38px;
+    }
+    .container {
+        width: 100%;
+    }
+    .frame_grid {
+        grid-template-columns: repeat(3, 318px);
+    }
+    .banner {
+        margin-top: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .highlights {
+        width: 91%;
+        display: block;
+        padding: 10px;
+    }
+    .highlights-video {
+        padding: 0;
+        width: 100%;
+    }
+    .highlights h1 {
+        font-size: 30px;
+    }
+    .btn {
+        margin-left: 20px;
+    }
+    .video-stream {
+        margin-top: 20px;
+    }
+    footer img {
+        width: 65%;
+        height: auto;
+    }
+}
 
 @media only screen and (min-width: 600px) and (max-width: 799px){
     p{
@@ -159,7 +206,6 @@ footer img{
     .header_title {
         color: white;
         padding: 20px;
-        /* padding-right: 84px; */
         font-size: 38px;
     }
     .container {
@@ -198,12 +244,7 @@ footer img{
 }
 
 
-/*  Mobile Device */
 @media only screen and (min-width: 360px) and (max-width: 599px){
-
-    header {
-        width: 360px;
-    }
     .header_title {
         color: white;
         padding: 20px;
